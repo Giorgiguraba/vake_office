@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="testcss.css">
+</head>
+<body>
+    <div class="container">
+        <form class="registration-form">
+            <div class="form-group">
+                <label for="first-name">First name *</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
+                <span class="error-message">Please fill this in</span>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last name *</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Smith" required>
+                <span class="error-message">Please fill this in</span>
+            </div>
+            <div class="form-group">
+                <label for="phone-number">Phone number *</label>
+                <input type="text" id="phone-number" name="phone-number" placeholder="(201) 555-0123" required>
+                <span class="error-message">Please fill this in</span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                <span class="error-message">Please fill this in</span>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
